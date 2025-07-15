@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Driti's Annaprashan</title>
+  <style>
+    body {
+    font-family: 'Georgia', serif;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+   }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .photo-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    .photo-1 {
+      background-image: url('Photo_left.jpg');
+    }
+    .photo-2 {
+      background-image: url('Photo_right.jpg');
+    }
+    .header, .poem, .details, .family, .footer {
+      background: #fff;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    .baby-name {
+      font-size: 2.5em;
+      color: #d63384;
+      text-align: center;
+    }
+    .title {
+      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .poem {
+      font-style: italic;
+      text-align: center;
+      line-height: 1.8;
+    }
+    .signature {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #b03060;
+    }
+    .details, .family {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      text-align: center;
+    }
+    .card-title {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 1.1em;
+      color: #6a4c93;
+    }
+    a {
+      text-decoration: none;
+      color: #d63384;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="photo-gallery">
+      <div class="photo photo-1"></div>
+      <div class="photo photo-2"></div>
+    </div>
+    <div class="header">
+      <div class="title">🍚 Blessed First Rice Ceremony 🍚</div>
+      <div class="baby-name">Soumini (Driti)</div>
+    </div>
+
+    <div class="poem">
+      With tiny hands and eyes so bright,<br>
+      I taste the world in morning light.<br>
+      Come bless my day with love and grace,<br>
+      Your smile will light my little space.
+      <div class="signature">Lovingly yours,<br>Soumini (Driti)</div>
+    </div>
+
+    <div class="details">
+      <div class="card">
+        <div class="card-title">📅 Date & Time</div>
+        Sunday, 3rd August 2025<br>12:00 PM
+      </div>
+      <div class="card">
+        <div class="card-title">📍 Venue</div>
+        <a href="https://maps.app.goo.gl/ue1xmHBWx7bXJM539" target="_blank">
+          Annapurna Anushthan Bhavan<br>V-Bazar Building, 76 Station Road, Guskara
+        </a><br>Purba Bardhaman
+      </div>
+      <div class="card">
+        <div class="card-title">📞 Contact</div>
+        Mobile: 8918799672<br><br>
+        Dr. Sandip Garai<br>
+        <a href="https://iiab.icar.gov.in/all-staff.php?view=025776#gsc.tab=0" target="_blank">ICAR Profile</a>
+      </div>
+    </div>
+
+    <div class="family">
+      <div class="card"><div class="card-title">Baby</div>Soumini Garai</div>
+      <div class="card"><div class="card-title">Father</div>Sandip Garai</div>
+      <div class="card"><div class="card-title">Mother</div>Sudipa Debnath Garai</div>
+      <div class="card"><div class="card-title">Grandfather</div>Nimai Chandra Garai</div>
+      <div class="card"><div class="card-title">Grandmother</div>Kalyani Garai</div>
+      <div class="card"><div class="card-title">Grandmother</div>Sujata Debnath</div>
+    </div>
+
+    <div class="footer">
+      🙏 Your presence will make this day even more special 🙏
+    </div>
+  </div>
+</body>
+</html>
